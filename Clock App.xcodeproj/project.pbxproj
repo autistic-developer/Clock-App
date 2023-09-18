@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D70101992A72B55D00D63A4E /* RemindersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70101982A72B55D00D63A4E /* RemindersListView.swift */; };
+		D701019E2A7375F800D63A4E /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D701019D2A7375F800D63A4E /* ToggleView.swift */; };
+		D75B2CF72A7914C40070E828 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B2CF62A7914C40070E828 /* HomeView.swift */; };
+		D75B2CF92A794B460070E828 /* AddButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D75B2CF82A794B450070E828 /* AddButtonView.swift */; };
+		D7DE8D262A778192003AE0B0 /* ReminderTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7DE8D252A778192003AE0B0 /* ReminderTile.swift */; };
+		D7E23F382A7D1E4D00DA6EF6 /* AlarmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E23F372A7D1E4D00DA6EF6 /* AlarmManager.swift */; };
+		D7E23F3C2A7E37C300DA6EF6 /* Reminder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E23F3A2A7E37C300DA6EF6 /* Reminder+CoreDataProperties.swift */; };
+		D7E23F3E2A7FEED800DA6EF6 /* default.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D7E23F3D2A7FEED800DA6EF6 /* default.mp4 */; };
+		D7FE811C2A7A9B1F001C3326 /* CascadiaCodePL.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7FE811A2A7A9B1E001C3326 /* CascadiaCodePL.ttf */; };
+		D7FE811D2A7A9B1F001C3326 /* AtypDisplayBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7FE811B2A7A9B1F001C3326 /* AtypDisplayBold.ttf */; };
+		D7FE813A2A7BC3CA001C3326 /* ReminderModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7FE81382A7BC3CA001C3326 /* ReminderModel.xcdatamodeld */; };
+		D7FE814A2A7BDCF0001C3326 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FE81492A7BDCF0001C3326 /* PersistenceController.swift */; };
+		D7FE814D2A7CD9D9001C3326 /* Reminder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FE814B2A7CD9D9001C3326 /* Reminder+CoreDataClass.swift */; };
+		D7FF69652A6FF79F00053676 /* ClockApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF69642A6FF79F00053676 /* ClockApp.swift */; };
+		D7FF69692A6FF7A100053676 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FF69682A6FF7A100053676 /* Assets.xcassets */; };
+		D7FF696C2A6FF7A100053676 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7FF696B2A6FF7A100053676 /* Preview Assets.xcassets */; };
+		D7FF69732A7007A700053676 /* FigmaShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF69722A7007A700053676 /* FigmaShape.swift */; };
+		D7FF69762A70094200053676 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF69752A70094200053676 /* Double.swift */; };
+		D7FF69792A71622800053676 /* SecondHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF69782A71622800053676 /* SecondHandView.swift */; };
+		D7FF697B2A7163D200053676 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF697A2A7163D200053676 /* Color.swift */; };
+		D7FF697D2A71664D00053676 /* MinuteHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF697C2A71664D00053676 /* MinuteHandView.swift */; };
+		D7FF697F2A71675F00053676 /* HourHandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF697E2A71675F00053676 /* HourHandView.swift */; };
+		D7FF69812A71688500053676 /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF69802A71688500053676 /* ClockView.swift */; };
+		D7FF69832A7257E500053676 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FF69822A7257E500053676 /* View.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D70101982A72B55D00D63A4E /* RemindersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersListView.swift; sourceTree = "<group>"; };
+		D701019D2A7375F800D63A4E /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		D75205B52A75477D004CA66D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D75B2CF62A7914C40070E828 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D75B2CF82A794B450070E828 /* AddButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButtonView.swift; sourceTree = "<group>"; };
+		D7DE8D252A778192003AE0B0 /* ReminderTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderTile.swift; sourceTree = "<group>"; };
+		D7E23F372A7D1E4D00DA6EF6 /* AlarmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmManager.swift; sourceTree = "<group>"; };
+		D7E23F3A2A7E37C300DA6EF6 /* Reminder+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D7E23F3D2A7FEED800DA6EF6 /* default.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = default.mp4; sourceTree = "<group>"; };
+		D7FE811A2A7A9B1E001C3326 /* CascadiaCodePL.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CascadiaCodePL.ttf; sourceTree = "<group>"; };
+		D7FE811B2A7A9B1F001C3326 /* AtypDisplayBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AtypDisplayBold.ttf; sourceTree = "<group>"; };
+		D7FE81392A7BC3CA001C3326 /* ReminderModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ReminderModel.xcdatamodel; sourceTree = "<group>"; };
+		D7FE81492A7BDCF0001C3326 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		D7FE814B2A7CD9D9001C3326 /* Reminder+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reminder+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D7FF69612A6FF79F00053676 /* Clock App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clock App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7FF69642A6FF79F00053676 /* ClockApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockApp.swift; sourceTree = "<group>"; };
+		D7FF69682A6FF7A100053676 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7FF696B2A6FF7A100053676 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7FF69722A7007A700053676 /* FigmaShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaShape.swift; sourceTree = "<group>"; };
+		D7FF69752A70094200053676 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		D7FF69782A71622800053676 /* SecondHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondHandView.swift; sourceTree = "<group>"; };
+		D7FF697A2A7163D200053676 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		D7FF697C2A71664D00053676 /* MinuteHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinuteHandView.swift; sourceTree = "<group>"; };
+		D7FF697E2A71675F00053676 /* HourHandView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HourHandView.swift; sourceTree = "<group>"; };
+		D7FF69802A71688500053676 /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		D7FF69822A7257E500053676 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7FF695E2A6FF79F00053676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D701019A2A72B68200D63A4E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D7E23F3A2A7E37C300DA6EF6 /* Reminder+CoreDataProperties.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75205C82A764D86004CA66D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D7FE814B2A7CD9D9001C3326 /* Reminder+CoreDataClass.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D7E23F362A7D1C8600DA6EF6 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				D7E23F372A7D1E4D00DA6EF6 /* AlarmManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		D7E23F642A835E0B00DA6EF6 /* Clock Views */ = {
+			isa = PBXGroup;
+			children = (
+				D7FF69802A71688500053676 /* ClockView.swift */,
+				D7FF69782A71622800053676 /* SecondHandView.swift */,
+				D7FF697C2A71664D00053676 /* MinuteHandView.swift */,
+				D7FF697E2A71675F00053676 /* HourHandView.swift */,
+			);
+			path = "Clock Views";
+			sourceTree = "<group>";
+		};
+		D7E23F652A835E3400DA6EF6 /* Reminder List Views */ = {
+			isa = PBXGroup;
+			children = (
+				D701019D2A7375F800D63A4E /* ToggleView.swift */,
+				D70101982A72B55D00D63A4E /* RemindersListView.swift */,
+				D7DE8D252A778192003AE0B0 /* ReminderTile.swift */,
+			);
+			path = "Reminder List Views";
+			sourceTree = "<group>";
+		};
+		D7E23F662A835E6400DA6EF6 /* Home View */ = {
+			isa = PBXGroup;
+			children = (
+				D75B2CF82A794B450070E828 /* AddButtonView.swift */,
+				D75B2CF62A7914C40070E828 /* HomeView.swift */,
+			);
+			path = "Home View";
+			sourceTree = "<group>";
+		};
+		D7EA74BC2A8381CD001532EE /* Core Date */ = {
+			isa = PBXGroup;
+			children = (
+				D7FE81382A7BC3CA001C3326 /* ReminderModel.xcdatamodeld */,
+				D7FE81492A7BDCF0001C3326 /* PersistenceController.swift */,
+			);
+			path = "Core Date";
+			sourceTree = "<group>";
+		};
+		D7FE81192A7A9A89001C3326 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7FE811B2A7A9B1F001C3326 /* AtypDisplayBold.ttf */,
+				D7FE811A2A7A9B1E001C3326 /* CascadiaCodePL.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D7FF69582A6FF79F00053676 = {
+			isa = PBXGroup;
+			children = (
+				D7FF69632A6FF79F00053676 /* Clock App */,
+				D7FF69622A6FF79F00053676 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7FF69622A6FF79F00053676 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7FF69612A6FF79F00053676 /* Clock App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7FF69632A6FF79F00053676 /* Clock App */ = {
+			isa = PBXGroup;
+			children = (
+				D7E23F3D2A7FEED800DA6EF6 /* default.mp4 */,
+				D7FF69722A7007A700053676 /* FigmaShape.swift */,
+				D7EA74BC2A8381CD001532EE /* Core Date */,
+				D7FE81192A7A9A89001C3326 /* Fonts */,
+				D7FF69742A7008E800053676 /* Extensions */,
+				D7E23F362A7D1C8600DA6EF6 /* Manager */,
+				D701019A2A72B68200D63A4E /* Model */,
+				D7FF69772A715FF900053676 /* View */,
+				D75205C82A764D86004CA66D /* ViewModel */,
+				D7FF69642A6FF79F00053676 /* ClockApp.swift */,
+				D75205B52A75477D004CA66D /* Info.plist */,
+				D7FF69682A6FF7A100053676 /* Assets.xcassets */,
+				D7FF696A2A6FF7A100053676 /* Preview Content */,
+			);
+			path = "Clock App";
+			sourceTree = "<group>";
+		};
+		D7FF696A2A6FF7A100053676 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7FF696B2A6FF7A100053676 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7FF69742A7008E800053676 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7FF69752A70094200053676 /* Double.swift */,
+				D7FF697A2A7163D200053676 /* Color.swift */,
+				D7FF69822A7257E500053676 /* View.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7FF69772A715FF900053676 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D7E23F642A835E0B00DA6EF6 /* Clock Views */,
+				D7E23F652A835E3400DA6EF6 /* Reminder List Views */,
+				D7E23F662A835E6400DA6EF6 /* Home View */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7FF69602A6FF79F00053676 /* Clock App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7FF696F2A6FF7A100053676 /* Build configuration list for PBXNativeTarget "Clock App" */;
+			buildPhases = (
+				D7FF695D2A6FF79F00053676 /* Sources */,
+				D7FF695E2A6FF79F00053676 /* Frameworks */,
+				D7FF695F2A6FF79F00053676 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Clock App";
+			productName = Clock;
+			productReference = D7FF69612A6FF79F00053676 /* Clock App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7FF69592A6FF79F00053676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D7FF69602A6FF79F00053676 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D7FF695C2A6FF79F00053676 /* Build configuration list for PBXProject "Clock App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7FF69582A6FF79F00053676;
+			productRefGroup = D7FF69622A6FF79F00053676 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7FF69602A6FF79F00053676 /* Clock App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7FF695F2A6FF79F00053676 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FE811D2A7A9B1F001C3326 /* AtypDisplayBold.ttf in Resources */,
+				D7FF696C2A6FF7A100053676 /* Preview Assets.xcassets in Resources */,
+				D7FE811C2A7A9B1F001C3326 /* CascadiaCodePL.ttf in Resources */,
+				D7E23F3E2A7FEED800DA6EF6 /* default.mp4 in Resources */,
+				D7FF69692A6FF7A100053676 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7FF695D2A6FF79F00053676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FF69732A7007A700053676 /* FigmaShape.swift in Sources */,
+				D7FF69812A71688500053676 /* ClockView.swift in Sources */,
+				D75B2CF72A7914C40070E828 /* HomeView.swift in Sources */,
+				D70101992A72B55D00D63A4E /* RemindersListView.swift in Sources */,
+				D701019E2A7375F800D63A4E /* ToggleView.swift in Sources */,
+				D7FF697D2A71664D00053676 /* MinuteHandView.swift in Sources */,
+				D7FF697F2A71675F00053676 /* HourHandView.swift in Sources */,
+				D7FF69792A71622800053676 /* SecondHandView.swift in Sources */,
+				D7E23F382A7D1E4D00DA6EF6 /* AlarmManager.swift in Sources */,
+				D7E23F3C2A7E37C300DA6EF6 /* Reminder+CoreDataProperties.swift in Sources */,
+				D7FF69832A7257E500053676 /* View.swift in Sources */,
+				D7DE8D262A778192003AE0B0 /* ReminderTile.swift in Sources */,
+				D7FF69762A70094200053676 /* Double.swift in Sources */,
+				D7FF697B2A7163D200053676 /* Color.swift in Sources */,
+				D7FE814A2A7BDCF0001C3326 /* PersistenceController.swift in Sources */,
+				D75B2CF92A794B460070E828 /* AddButtonView.swift in Sources */,
+				D7FF69652A6FF79F00053676 /* ClockApp.swift in Sources */,
+				D7FE813A2A7BC3CA001C3326 /* ReminderModel.xcdatamodeld in Sources */,
+				D7FE814D2A7CD9D9001C3326 /* Reminder+CoreDataClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7FF696D2A6FF7A100053676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7FF696E2A6FF7A100053676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7FF69702A6FF7A100053676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Clock-App/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7FF69712A6FF7A100053676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Clock/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Clock-App/Info.plist";
+				INFOPLIST_KEY_NSCalendarsUsageDescription = "";
+				INFOPLIST_KEY_NSRemindersUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myapp.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7FF695C2A6FF79F00053676 /* Build configuration list for PBXProject "Clock App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FF696D2A6FF7A100053676 /* Debug */,
+				D7FF696E2A6FF7A100053676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7FF696F2A6FF7A100053676 /* Build configuration list for PBXNativeTarget "Clock App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7FF69702A6FF7A100053676 /* Debug */,
+				D7FF69712A6FF7A100053676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7FE81382A7BC3CA001C3326 /* ReminderModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7FE81392A7BC3CA001C3326 /* ReminderModel.xcdatamodel */,
+			);
+			currentVersion = D7FE81392A7BC3CA001C3326 /* ReminderModel.xcdatamodel */;
+			path = ReminderModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7FF69592A6FF79F00053676 /* Project object */;
+}
